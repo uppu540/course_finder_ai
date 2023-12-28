@@ -13,7 +13,11 @@ Documentation
 
 /Code: If applicable, this directory contains frontend code snippets, CSS, or any code-related materials.
 
-/Integration Guides:  Integratted SCSS for better reusability of the code for css.
+/Integration Guides: 
+
+Initialize with npm i command in your cmd.
+
+Integratted SCSS for better reusability of the code for css.
 
 For making any changes and for the changes to be get effected you should run.
 
