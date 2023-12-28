@@ -492,9 +492,6 @@ html, body {
   border: none;
 }
 @media only screen and (max-width: 481px) {
-  .card {
-    z-index: -1;
-  }
   .card .card-header .card-tabs {
     margin-bottom: 0px;
   }
