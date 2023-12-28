@@ -306,8 +306,7 @@ html, body {
         background: transparent;
         border: none;
     }
-    @include devices(mobile) { 
-        z-index: -1;
+    @include devices(mobile) {
         .card-header {
             .card-tabs {
                 margin-bottom: 0px;
