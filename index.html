@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Coursefinder.ai</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link href="assets/css/styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,100;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- Header -->
+
+        <header>
+            <div class="nav-header">
+                <div class="nav-left">
+                    <div class="logo-wrapper">
+                        <div class="logo">
+                            <img src="/assets/images/logo.png" alt="coursefinder.ai">     
+                        </div>
+                    </div>
+                    <div class="search-bar">
+                        <span class="icon">
+                            <i class="bi bi-search"></i>
+                        </span>
+                        <input type="text" placeholder="Search by student name, ack no." name="search">
+                    </div>
+                </div>
+                <div class="nav-right">
+
+                    <div class="whats-new">
+                        <span class="icon">
+                            <img src="/assets/images/info.png" alt="info icon">
+                        </span>
+                        Whats New ?
+                    </div>
+
+                    <div class="notifications">
+                        <div class="bell-icon">
+                            <i class="fas fa-bell"></i>
+                            <span class="notify-bubble">
+                                2
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="user-info has-dropodown">
+                        <div class="user-img">
+                            <img src="/assets/images/avatar.png" alt="">
+                        </div>
+                        <div class="user-name">
+                            Dikha Goel
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </header>
+
+        <!-- Container -->
+
+        <div class="container-wrapper" id="slide-menu">
+            <!-- Side Menu -->
+
+            <div class="side-menu"  >
+
+                <div class="sidemenu-toggle" id="menu-action">
+                    <span><i class="fa-solid fa-chevron-left"></i></span>
+                </div>
+
+                <div class="menu-list">
+                    <ul>
+                        <li class="active">
+                            <span class="icon">
+                                <img src="assets/images/side-menu/1.png" alt="">
+                            </span>
+                            <span class="text">Dashboard</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/2.png" alt="">
+                            </span>
+                            <span class="text">Students</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/3.png" alt="">
+                            </span>
+                            <span class="text">Applications</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/4.png" alt="">
+                            </span>
+                            <span class="text">Search Courses</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/5.png" alt="">
+                            </span>
+                            <span class="text">Wallet</span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/6.png" alt="">
+                            </span>
+                            <span class="text">Commission Payments</span>
+                        </li>
+                        <li class="has-dropdown">
+                            <span class="icon">
+                                <img src="assets/images/side-menu/7.png" alt="">
+                            </span>
+                            <span class="text">Allied Services <i class="fas fa-chevron-down"></i> </span>
+                        </li>
+                        <li>
+                            <span class="icon">
+                                <img src="assets/images/side-menu/8.png" alt="">
+                            </span>
+                            <span class="text">Learning Resources</span>
+                        </li>
+                        <li class="has-dropdown">
+                            <span class="icon">
+                                <img src="assets/images/side-menu/9.png" alt="">
+                            </span>
+                            <span class="text">Quick Links <i class="fas fa-chevron-down"></i></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-footer">
+                    <span class="icon">
+                        <img src="assets/images/side-menu/10.png" alt="">
+                    </span>
+                    <span class="text">
+                        Submit Feedback
+                    </span>
+                </div>
+
+
+            </div>
+
+
+            <!-- Main Data -->
+            <div class="main-content">
+
+                <div class="hero-container">
+                    <div class="hero-text">
+                        Hey, Good Morning <strong>Diksha!</strong>
+                    </div>
+
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-outline">
+                            Refresh Dashboard
+                        </button>
+                        <button class="btn btn-primary">
+                            Register Student
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="content-wrapper">
+                    <div class="content-main">
+                        <div class="selection-container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group-sm">
+                                        <div class="icon-dropdown">
+                                            <div class="dropdown">
+                                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <i class="far fa-calendar"></i> Year
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">2023</a></li>
+                                                  <li><a class="dropdown-item" href="#">2022</a></li>
+                                                  <li><a class="dropdown-item" href="#">2021</a></li>
+                                                  <li><a class="dropdown-item" href="#">2020</a></li>
+                                                </ul>
+                                              </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group-sm">
+                                        <div class="icon-dropdown">
+                                            <div class="dropdown">
+                                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <i class="far fa-calendar"></i> Date Created
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">2023</a></li>
+                                                  <li><a class="dropdown-item" href="#">2022</a></li>
+                                                  <li><a class="dropdown-item" href="#">2021</a></li>
+                                                  <li><a class="dropdown-item" href="#">2020</a></li>
+                                                </ul>
+                                              </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group-sm">
+                                        <div class="icon-dropdown">
+                                            <div class="dropdown">
+                                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <i class="far fa-calendar-check"></i> Select intake
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">2023</a></li>
+                                                  <li><a class="dropdown-item" href="#">2022</a></li>
+                                                  <li><a class="dropdown-item" href="#">2021</a></li>
+                                                  <li><a class="dropdown-item" href="#">2020</a></li>
+                                                </ul>
+                                              </div>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group-sm">
+                                        <div class="icon-dropdown">
+                                            <div class="dropdown">
+                                                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                  <i class="far fa-calendar"></i> Countries
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                  <li><a class="dropdown-item" href="#">India</a></li>
+                                                  <li><a class="dropdown-item" href="#">Canada</a></li>
+                                                  <li><a class="dropdown-item" href="#">Australia</a></li>
+                                                  <li><a class="dropdown-item" href="#">USA</a></li>
+                                                </ul>
+                                              </div>  
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn btn-primary btn-outline">
+                                        Apply Filters
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="stats-container">
+                                    <div class="stats-box blue">
+                                        <div class="count">
+                                            18
+                                        </div>
+                                        <div class="text">
+                                            Conditional
+                                        </div>
+                                        <div class="stats-info">
+                                            Offer Letter
+                                        </div>
+                                    </div>
+
+                                    <div class="stats-box green">
+                                        <div class="count">
+                                            22
+                                        </div>
+                                        <div class="text">
+                                            Un-Conditional
+                                        </div>
+                                        <div class="stats-info">
+                                            Offer Letter
+                                        </div>
+                                    </div>
+
+                                    <div class="stats-box yellow">
+                                        <div class="count">
+                                            30
+                                        </div>
+                                        <div class="text">
+                                            Payment Received
+                                        </div>
+                                        <div class="stats-info">
+                                            All Country
+                                        </div>
+                                    </div>
+
+                                    <div class="stats-box red">
+                                        <div class="count">
+                                            8
+                                        </div>
+                                        <div class="text">
+                                            Payment Received
+                                        </div>
+                                        <div class="stats-info">
+                                            Offer Letter
+                                        </div>
+                                    </div>
+
+                                    <div class="stats-box grey">
+                                        <div class="count">
+                                            8
+                                        </div>
+                                        <div class="text">
+                                            VISA Received
+                                        </div>
+                                        <div class="stats-info">
+                                            Offer Letter
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <div class="card-header-title">
+                                            <div class="card-title">
+                                                Appplications
+                                            </div>
+                                            <div class="card-actions">
+                                                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                                            </div>
+                                        </div>
+                                        <div class="card-tabs">
+                                            <ul>
+                                                <li class="active">
+                                                    <a >Pending On Me (15)</a>
+                                                </li>
+                                                <li>
+                                                    <a >Lorem ipsum (12)</a>
+                                                </li>
+                                                <li>
+                                                    <a >Lorem ipsum (12)</a>
+                                                </li>
+                                            </ul>
+                                        </div>    
+                                    </div>
+                                    
+                                    <div class="card-body">
+                                        <div class="table-responsive">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>
+                                                            <a class="sort-icon">
+                                                                Ack. no.
+                                                            </a>
+                                                        </th>
+                                                        <th>
+                                                            <a class="sort-icon">
+                                                                Student name
+                                                            </a>
+                                                        </th>
+                                                        <th>
+                                                            <a class="sort-icon">
+                                                                University
+                                                            </a>
+                                                        </th>
+                                                        <th>
+                                                            <a class="sort-icon">
+                                                                Program
+                                                            </a>
+                                                        </th>
+                                                        <th>
+                                                            <a class="sort-icon">
+                                                                Pending Since
+                                                            </a>
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            117110/22-23
+                                                        </td>
+                                                        <td>
+                                                            <div class="name">
+                                                                Rishi Joshi
+                                                            </div>
+                                                            <div class="email">
+                                                                rishijoshi@gmail.com
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            Sheffield Hallam...
+                                                        </td>
+                                                        <td>
+                                                            Msc Internatio
+                                                        </td>
+                                                        <td>
+                                                            <div class="pending">
+                                                                1 Day
+                                                            </div>
+                                                            <div class="date">
+                                                                12 Dec 2022
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            117110/22-23
+                                                        </td>
+                                                        <td>
+                                                            <div class="name">
+                                                                Rishi Joshi
+                                                            </div>
+                                                            <div class="email">
+                                                                rishijoshi@gmail.com
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            Sheffield Hallam...
+                                                        </td>
+                                                        <td>
+                                                            Msc Internatio
+                                                        </td>
+                                                        <td>
+                                                            <div class="pending">
+                                                                1 Day
+                                                            </div>
+                                                            <div class="date">
+                                                                12 Dec 2022
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            117110/22-23
+                                                        </td>
+                                                        <td>
+                                                            <div class="name">
+                                                                Rishi Joshi
+                                                            </div>
+                                                            <div class="email">
+                                                                rishijoshi@gmail.com
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            Sheffield Hallam...
+                                                        </td>
+                                                        <td>
+                                                            Msc Internatio
+                                                        </td>
+                                                        <td>
+                                                            <div class="pending">
+                                                                1 Day
+                                                            </div>
+                                                            <div class="date">
+                                                                12 Dec 2022
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            117110/22-23
+                                                        </td>
+                                                        <td>
+                                                            <div class="name">
+                                                                Rishi Joshi
+                                                            </div>
+                                                            <div class="email">
+                                                                rishijoshi@gmail.com
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            Sheffield Hallam...
+                                                        </td>
+                                                        <td>
+                                                            Msc Internatio
+                                                        </td>
+                                                        <td>
+                                                            <div class="pending">
+                                                                1 Day
+                                                            </div>
+                                                            <div class="date">
+                                                                12 Dec 2022
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            117110/22-23
+                                                        </td>
+                                                        <td>
+                                                            <div class="name">
+                                                                Rishi Joshi
+                                                            </div>
+                                                            <div class="email">
+                                                                rishijoshi@gmail.com
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            Sheffield Hallam...
+                                                        </td>
+                                                        <td>
+                                                            Msc Internatio
+                                                        </td>
+                                                        <td>
+                                                            <div class="pending">
+                                                                1 Day
+                                                            </div>
+                                                            <div class="date">
+                                                                12 Dec 2022
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="pagination">
+                                            <ul>
+                                                <li class="page-icon">
+                                                    <i class="fas fa-chevron-left"></i>
+                                                </li>
+                                                <li>
+                                                    1
+                                                </li>
+                                                <li>
+                                                    2
+                                                </li>
+                                                <li>
+                                                    3
+                                                </li>
+                                                <li class="page-icon">
+                                                    <i class="fas fa-chevron-right"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="info-container">
+                                    <div class="info-main-content">
+                                        <div class="info-sub">
+                                            Allied Services
+                                        </div>
+                                        <div class="info-title">
+                                            Overseas Education Loans
+                                        </div>
+                                        <div class="info-descp">
+                                            Provide end to end overseas education loan assistance to your students to help them achieve their goal
+                                        </div>
+                                        <div class="info-btn">
+                                            <button class="btn btn-white" >
+                                                Get Started
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="info-img">
+                                        <img src="assets/images/info_img.svg" alt="Info Image">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+    
+                    <div class="content-widgets">
+
+                        <div class="widget-container">
+                            <div class="widget-header">
+                                <div class="widget-title">
+                                    News Bulltein
+                                </div>
+                            </div>
+                            <div class="widget-body">
+                                <div class="widget-icon">
+                                    <i class="far fa-newspaper"></i>
+                                </div>
+                                <div class="widget-content">
+                                    <div class="news-title">
+                                        Indian student tops harward!
+                                    </div>
+                                    <div class="news-descp">
+                                        Indian student tops harward university and makes history. Its the first time for an Indian student to do this. <a>Read More</a> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="widget-container">
+                            <div class="widget-header">
+                                <div class="widget-title">
+                                    Upcoming Events
+                                </div>
+                                <div class="widget-actions">
+                                    <a class="nav-icon" > <i class="fas fa-chevron-left"></i> </a>
+                                    <a class="nav-icon"> <i class="fas fa-chevron-right"></i> </a>
+                                </div>
+                            </div>
+
+                            <div class="widget-body for-event">
+                                <div class="event-image">
+                                    <img src="assets/images/event_img.svg" alt="">
+                                </div>
+                                <div class="event-details">
+                                    <div class="left">
+                                        <div class="event-name">
+                                            Event Name Goes here
+                                        </div>
+                                        <div class="event-date">
+                                            7 Jan 2023
+                                        </div>
+                                    </div>
+                                    <div class="right">
+                                        <b>4:30</b> <br> PM
+                                    </div>
+                                </div>
+                                <div class="event-venue">
+                                    <div class="event-icon">
+                                        <i class="fa-solid fa-building-columns"></i>
+                                    </div>
+                                    <div class="event-text">
+                                        University of New York
+                                    </div>
+                                </div>
+                                <div class="event-venue">
+                                    <div class="event-icon">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="event-text">
+                                        By  Kishori Gupta
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-register">
+                                    Register Now
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                        <div class="quick-links">
+                            <div class="quick-title">
+                                Quick Links
+                            </div>
+                            <ul>
+                                <li>
+                                    <a >
+                                        <div class="quick-title">
+                                            Learning resourses
+                                        </div>
+                                        <div class="quick-icon">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a >
+                                        <div class="quick-title">
+                                            Learning resourses
+                                        </div>
+                                        <div class="quick-icon">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a >
+                                        <div class="quick-title">
+                                            Learning resourses
+                                        </div>
+                                        <div class="quick-icon">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a >
+                                        <div class="quick-title">
+                                            Learning resourses
+                                        </div>
+                                        <div class="quick-icon">
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="quick-links">
+                            <div class="quick-title">
+                                Contact Regional Manager
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="user-profile">
+                                        <div class="user-img">
+                                            <img src="assets/images/user_img.svg" alt="User Image">
+                                        </div>
+                                        <div class="user-content">
+                                            <div class="user-name">
+                                                Santosh Sharma
+                                            </div>
+                                            <div class="user-details">
+                                                <span class="phone">
+                                                    +91 9876543210 | 
+                                                </span> 
+                                                <span class="city">
+                                                    Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-email">
+                                        sshatmal123@kcoverseas.com
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile">
+                                        <div class="user-img">
+                                            <img src="assets/images/user_img.svg" alt="User Image">
+                                        </div>
+                                        <div class="user-content">
+                                            <div class="user-name">
+                                                Santosh Sharma
+                                            </div>
+                                            <div class="user-details">
+                                                <span class="phone">
+                                                    +91 9876543210 | 
+                                                </span> 
+                                                <span class="city">
+                                                    Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-email">
+                                        sshatmal123@kcoverseas.com
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="user-profile">
+                                        <div class="user-img">
+                                            <img src="assets/images/user_img.svg" alt="User Image">
+                                        </div>
+                                        <div class="user-content">
+                                            <div class="user-name">
+                                                Santosh Sharma
+                                            </div>
+                                            <div class="user-details">
+                                                <span class="phone">
+                                                    +91 9876543210 | 
+                                                </span> 
+                                                <span class="city">
+                                                    Hyderabad
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="user-email">
+                                        sshatmal123@kcoverseas.com
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                
+                
+
+            </div>
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/52875f8d3f.js" crossorigin="anonymous"></script> 
+
+        <script>
+
+        let element = document.getElementById("menu-action");
+        let element1 = document.getElementById("slide-menu");
+
+        // Toggle a class
+
+        element.addEventListener("click", function() {
+            // Toggle a class on click
+            element1.classList.toggle("toggle-menu");
+        });
+
+        </script>
+
+    </body>
+</html>

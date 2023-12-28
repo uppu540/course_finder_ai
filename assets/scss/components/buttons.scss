@@ -1,0 +1,110 @@
+.btn {
+    font-family: 'DM Sans', sans-serif;
+    padding: 10px 16px;
+    color: #939393;
+    background: white;
+    border-radius: $border_radius_sm;
+    border: 1px solid #EBEBEB;
+    font-size: $base_size;
+    font-weight: $font_weight_regular;
+    line-height: normal;
+    min-height: 44px;
+    transition: 0.3s all ease;
+    &.btn-primary {
+        background: $theme;
+        color: white;
+        &:hover{
+            background: #2162db;
+        }
+    }
+    &.btn-outline {
+        background: white;
+        border: 1px solid $theme;
+        color: $theme;
+        &:hover {
+            background: $theme;
+            color: white;
+            border-color: $theme;
+        }
+    }
+    &.show {
+        color: #939393;
+        background: white;
+        border: 1px solid #EBEBEB;
+    }
+    &.btn-white {
+        background: white;
+        color: $theme;
+        font-weight: 700;
+        font-size: 16px;
+        &:hover {
+            background: white;
+            color: $theme;
+        }
+    }
+    &.btn-register {
+        width: 100%;
+        text-align: center;
+        background: $theme;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        &:hover{
+            background: #2162db;
+        }
+    }
+}
+
+
+.icon-dropdown {
+    .dropdown {
+        .dropdown-toggle {
+            width: 100%;
+            text-align: left;
+            line-height: 22px;
+            color: #8F9297;
+            position: relative;
+            font-weight: $font_weight_regular;
+            i {
+                margin-right: 10px;
+            }
+            &::after {
+                display: none;
+            }
+            &:before {
+                content: "\f078";
+                font-family: "Font Awesome 6 Free";
+                font-size: 14px;
+                font-weight: 600;
+                color: #939393;
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 14px;
+            }
+            &:hover {
+                background: transparent;
+                border-color: #8F9297;
+            }
+        }
+        .dropdown-menu {
+            width: 100%;
+            color: #939393;
+            background: white;
+            border-radius: $border_radius_sm;
+            border: 1px solid #EBEBEB;
+            padding: 0px;
+            li {
+                a {
+                    padding: 8px 10px;
+                    font-size: 14px;
+                    font-weight: $font_weight_medium;
+                    color: #8F9297;
+                    &:active {
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
