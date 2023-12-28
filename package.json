@@ -1,0 +1,16 @@
+{
+  "name": "course_finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass -w assets/scss/main.scss assets/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "node-sass": "^9.0.0"
+  }
+}
